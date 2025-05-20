@@ -61,3 +61,49 @@ EXERCISE1
    59  git push --set-upstream origin main
    60  git switch main
    61  history
+
+   EXERCISE 2
+     1  git --version
+    2  git config --global user.name "Stevo's'
+    3  git config --global user.name "Stevo"
+    4  git config --global user.name "Stevo's'
+    5  git config --global user.email "stevo"
+    6  git --version
+    7  git config --global user.name "Steven Cyubahiro"
+    8  git config --global user.email steven.cyubahiro24snhu@keplercollege.ac.rw
+    9  git config --global core.editor "code --wait"
+   10  git config --global -e
+   11  git config --global core.crlf true
+   12  git config --help
+   13  git config --help
+   14  git config -h
+   15  mkdir Moon cd
+   16  git innit
+   17  git init7
+   18  git init
+   19  mkdir Moon
+   20  cd Moon
+   21  git init
+   22  dir
+   23  git clone
+   24  git clone https://github.com/stevo531/Clone-exercise.git
+   25  cd Clone-exercise/
+   26  code .
+   27  git add home.html
+   28  git stash
+   29  git add about.html
+   30  git stash
+   31  git add team.html
+   32  git stash
+   33  git stash list
+   34  git stash pop stash@{1}
+   35  git stash list
+   36  git stash pop stash@{1}
+   37  git add --all
+   38  git commit -m "unstashed both home and about files"
+   39  git push\
+   40  git push
+   41  git stash list
+   42  git stash pop stash@{0}
+   43  git reset --hard
+   44  history
