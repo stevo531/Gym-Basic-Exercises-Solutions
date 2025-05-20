@@ -1,4 +1,5 @@
 # Gym-Basic-Exercises-Solutions
+EXERCISE1
  1  git --version
     2  git config --global user.name "Stevo's'
     3  git config --global user.name "Stevo"
