@@ -124,3 +124,27 @@ EXERCISE1
    61  git checkout main
    62  git pull
    63  git pull
+   
+   BUNDLE2EXERCISE2
+    git checkout -b ft/service-redesign
+   65  git add service.html
+   66  git commit -m "added some content in service file"
+   67  git push
+   68      git push --set-upstream origin ft/service-redesign
+   69  history
+   70  git checkout main
+   71  git add --all
+   72  git status
+   73  git commit -m "added some changes on the same line of code and below it"
+   74  git push
+   75  git checkout ft/service-redesign
+   76  git diff main ft/service-redesign
+   77  git merge main
+   78  git diff main..ft/service-redesign
+   79  git merge main
+   80  git merge main
+   81  git add --all
+   82  git commit
+   83  git checkout main
+   84  git pull
+   85  git push
