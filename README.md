@@ -138,14 +138,13 @@ EXERCISE1
    73  git commit -m "added some changes on the same line of code and below it"
    74  git push
    75  git checkout ft/service-redesign
-   76  git diff
-   77  git diff main ft/service-redesign
-   78  git merge main
-   79  git diff main..ft/service-redesign
+   76  git diff main ft/service-redesign
+   77  git merge main
+   78  git diff main..ft/service-redesign
+   79  git merge main
    80  git merge main
-   81  git merge main
-   82  git add --all
-   83  git commit
-   84  git checkout main
-   85  git pull
-   86  git push
+   81  git add --all
+   82  git commit
+   83  git checkout main
+   84  git pull
+   85  git push
