@@ -107,3 +107,20 @@ EXERCISE1
    42  git stash pop stash@{0}
    43  git reset --hard
    44  history
+   
+   BUNDLE2EXERCISE1
+   git checkout -b ft/bundle-2
+   50  git add service.html
+   51  git commit -m "created a service file"
+   52  git push
+   53  git push --set-upstream origin ft/bundle-2
+   54  git checkout main
+   55  git pull
+   56  git checkout ft/bundle-2
+   57  git pull origin main
+   58  git push origin ft/bundle-2
+   59  git checkout main
+   60  git checkout ft/bundle-2 
+   61  git checkout main
+   62  git pull
+   63  git pull
