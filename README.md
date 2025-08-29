@@ -124,3 +124,67 @@ EXERCISE1
    61  git checkout main
    62  git pull
    63  git pull
+   
+   BUNDLE2EXERCISE2
+    git checkout -b ft/service-redesign
+   65  git add service.html
+   66  git commit -m "added some content in service file"
+   67  git push
+   68      git push --set-upstream origin ft/service-redesign
+   69  history
+   70  git checkout main
+   71  git add --all
+   72  git status
+   73  git commit -m "added some changes on the same line of code and below it"
+   74  git push
+   75  git checkout ft/service-redesign
+   76  git diff main ft/service-redesign
+   77  git merge main
+   78  git diff main..ft/service-redesign
+   79  git merge main
+   80  git merge main
+   81  git add --all
+   82  git commit
+   83  git checkout main
+   84  git pull
+   85  git push
+   
+   BUNDLE3EXERCISE1
+    git checkout -b ft/team-page
+   31  git checkout ft//team-page
+   32  git checkout ft/team-page
+   33  git checkout -b ft/team-page2
+   34  git add team2.html
+   35  git commit - "created a new team file"    
+   36  git commit -m "created a new team file"   
+   37  git push
+   38   git push --set-upstream origin ft/team-page2
+   39  git checkout main
+   40  git checkout -b contactpage
+   41  git checkout ft/team-page2
+   42  git log
+   43  git checkout contactpage
+   44  git cherry-pick f46e2ed4515e81da4b0183cfcf7d271ca3dd7a8ff46e2ed4515e81da4b0183cfcf7d271ca3dd7a8f
+   45  git cherry-pick 73b5ecd07a51befe152666287e5ee541dd6407be
+   46  git add .
+   47  git commit -m "added a new change"        
+   48  git push
+   49  git push --set-upstream origin contactpage
+   50  git checkout -b faq-page
+   51  git add faq.html
+   52  git add .
+   53  git commit -m "added ft in faq.html"      
+   54  git push
+   55  git push --set-upstream origin faq-page   
+   56  git feature team-page2
+   57  git feature ft/team-page2
+   58  git feature ft/team-page2
+   59  git checkout ft/team-page12
+   60  git checkout ft/team-page2
+   61  git log
+   62  git revert 73b5ecd07a51befe152666287e5ee541dd6407be
+   63  git add .
+   64  git commit -m "reverted some changes"     
+   65  git push
+   66  git status
+   67  history
